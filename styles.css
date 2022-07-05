@@ -10,34 +10,32 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  margin: 5vh auto;
-
-  display: flex;
-  flex-flow: row wrap;
-  width: min-content;
-
-  border: solid gray 2px;
-}
-
 button {
   color: white;
   padding: 1rem;
   border-radius: 10px;
 }
 
-.row {
-  border: solid green 2px;
+.container {
+  margin: 5vh auto;
+
+  min-width: 100px;
+  max-width: 300px;
+
+  border: solid gray 2px;
 }
 
 .display {
   border: solid red 2px;
-  display: flex;
-  width: 100%;
+
   font-family: 'Orbitron', sans-serif;
   color: black;
   padding: 1.5rem 3rem;
   background-color: azure;
+}
+
+.row {
+  border: solid green 2px;
 }
 
 .inputs {
